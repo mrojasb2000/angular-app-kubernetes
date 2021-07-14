@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: panquequenet.azurecr.io/panquequenet:#{Build.BuildId}#x
+        image: panquequenet.azurecr.io/panquequenet:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
