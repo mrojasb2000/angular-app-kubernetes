@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: panquequenet/mrojasb2000/angular-app-kubernetes:#{Build.BuildId}#
+        image: panquequenet.azurecr.io/panquequenet:#{Build.BuildId}#x
         ports: 
         - containerPort: 80 
 --- 
